@@ -22,6 +22,18 @@
             margin: 0.5em 0;
         }
 
+        h2 {
+            margin-top: 1em;
+        }
+
+        .section {
+            margin-bottom: 2em;
+        }
+
+        .section h1 {
+            margin-bottom: 0.5em;
+        }
+
         button {
             background-color: #4CAF50;
             border: none;
@@ -48,27 +60,32 @@
 </head>
 
 <body>
-    <h1>Android:</h1>
-    <h2>For Teachers</h2>
-    <a href="./apps/Attendance.apk" download>
-        <button>Download Attendance App</button>
-    </a>
-    <h2>For Students</h2>
-    <a href="./apps/Student.apk" download>
-        <button>Download Student App</button>
-    </a>
+    <div class="section">
+        <h1>For Teachers:</h1>
+        <a href="./apps/Attendance.apk" download>
+            <button>Download Attendance App (Android)</button>
+        </a>
+        <!-- Add iOS download link when available -->
+        <!-- <a href="./Attendance.ipa" download>
+            <button>Download Attendance App (iOS)</button>
+        </a> -->
+    </div>
 
-    <h1>iOS:</h1>
-    <p>iOS versions will be available soon. Check back later!</p>
-    <!-- Example placeholder for iOS download link if you have one -->
-    <!-- <h2>For Teachers</h2>
-    <a href="./Attendance.ipa" download>
-        <button>Download Attendance App</button>
-    </a>
-    <h2>For Students</h2>
-    <a href="./Student.ipa" download>
-        <button>Download Student App</button>
-    </a> -->
+    <div class="section">
+        <h1>For Students:</h1>
+        <a href="./apps/Student.apk" download>
+            <button>Download Student App (Android)</button>
+        </a>
+        <!-- Add iOS download link when available -->
+        <!-- <a href="./Student.ipa" download>
+            <button>Download Student App (iOS)</button>
+        </a> -->
+    </div>
+
+    <div class="section">
+        <h1>iOS:</h1>
+        <p>iOS versions will be available soon. Check back later!</p>
+    </div>
 </body>
 
 </html>
